@@ -12,7 +12,7 @@ terraform {
   required_version = ">= 0.14"
 
   backend "remote" {
-    organization = "demo_hjkim_pull_request"
+    organization = "demo_hjkim"
 
     workspaces {
       name = "gh-actions-demo"
